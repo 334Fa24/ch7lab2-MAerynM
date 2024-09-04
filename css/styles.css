@@ -102,11 +102,11 @@ main ul {
     text-align: center;
 }
 
-.round {
+round {
     border-radius: 6px;
 }
 
-.aside{
+aside{
     align-content: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -114,7 +114,7 @@ main ul {
     grid-column: 1 /span 2;
 }
 
-.figure {
+figure {
     border: 4px solid #2a1f14;
     box-shadow: 6px 6px 10px #c5a687;
     max-width: 400px;
@@ -238,8 +238,8 @@ footer a {
         grid-template-columns: auto auto auto auto;
         
     }
-    .aside {
-        grid-column: 1 /span4;
+    aside {
+        grid-column: 1 /span 4;
         font-size: 3em;
     } 
 }
@@ -256,7 +256,7 @@ footer a {
         grid-template-columns: auto auto auto;
         grid-gap: 30px;
      } 
-    .aside{
+    aside{
         grid-column: 1 / span 3;
     }
 }
